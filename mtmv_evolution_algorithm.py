@@ -2,7 +2,6 @@ import pygame
 import random
 import heapq
 import sys
-
 # ============== CONFIGURATION ==============
 # environment values
 GRID_SIZE = 15
