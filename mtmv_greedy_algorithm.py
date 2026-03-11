@@ -413,7 +413,7 @@ def main():
         screen.blit(font.render("Log:", True, TEXT_COLOR), (panel_x, y)); y += 20
         for log in sim.logs[-8:]:
             screen.blit(small_font.render(log[:24], True, (180,180,180)), (panel_x, y)); y += 16
-        
+            
         pygame.display.flip()
         clock.tick(60)
 
